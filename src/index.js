@@ -17,8 +17,9 @@ class App extends Component {
       this.setState({ videos });
       });
     }
+
   render () {
-  return (
+    return (
       <div>
       <SearchBar />
       <VideoList videos={this.state.videos} />
